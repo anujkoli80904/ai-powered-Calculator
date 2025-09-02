@@ -77,11 +77,6 @@ This tool is designed for students, teachers, and math enthusiasts who want a qu
 
 ---
 
-## 📷 Screenshots  
-*(Add screenshots of the app interface here for better presentation.)*  
-
----
-
 ## 📌 Example  
 - **Input (drawn on canvas):** `2x + 3 = 7`  
 - **AI Output:**  
