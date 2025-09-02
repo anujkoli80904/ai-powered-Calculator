@@ -1,4 +1,3 @@
-```markdown
 # 🧮 AI Powered Calculator  
 
 ## 📌 Overview  
@@ -27,14 +26,12 @@ This tool is designed for students, teachers, and math enthusiasts who want a qu
 
 ## 📂 Project Structure  
 ```
-
-📦 AI\_Powered\_Calculator
-┣ 📜 app.py              # Main Streamlit app
-┣ 📜 requirements.txt    # Dependencies
-┣ 📜 .env                # Environment variables (API Key)
-┣ 📜 README.md           # Documentation
-
-````
+📦 AI_Powered_Calculator
+ ┣ 📜 app.py              # Main Streamlit app
+ ┣ 📜 requirements.txt    # Dependencies
+ ┣ 📜 .env                # Environment variables (API Key)
+ ┣ 📜 README.md           # Documentation
+```
 
 ---
 
@@ -44,82 +41,66 @@ This tool is designed for students, teachers, and math enthusiasts who want a qu
    ```bash
    git clone https://github.com/your-username/ai-powered-calculator.git
    cd ai-powered-calculator
-````
+   ```
 
-2. **Create and activate virtual environment** (optional but recommended)
-
+2. **Create and activate virtual environment** (optional but recommended)  
    ```bash
    python -m venv venv
    source venv/bin/activate   # On Linux/Mac
    venv\Scripts\activate      # On Windows
    ```
 
-3. **Install dependencies**
-
+3. **Install dependencies**  
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Set up API Key**
-   Create a `.env` file in the root directory and add:
-
+4. **Set up API Key**  
+   Create a `.env` file in the root directory and add:  
    ```
    GOOGLE_API_KEY=your_google_api_key_here
    ```
 
-5. **Run the application**
-
+5. **Run the application**  
    ```bash
    streamlit run app.py
    ```
 
 ---
 
-## 🖼️ Usage
-
-1. Open the app in your browser (`http://localhost:8501`).
-2. Draw a mathematical equation on the canvas.
-3. Choose pen **color** and **width** in the sidebar.
-4. Click **"🧠 Analyze Equation"**.
-5. View AI-generated **step-by-step solution** in the analysis section.
-
----
-
-## 📷 Screenshots
-
-*(Add screenshots of the app interface here for better presentation.)*
+## 🖼️ Usage  
+1. Open the app in your browser (`http://localhost:8501`).  
+2. Draw a mathematical equation on the canvas.  
+3. Choose pen **color** and **width** in the sidebar.  
+4. Click **"🧠 Analyze Equation"**.  
+5. View AI-generated **step-by-step solution** in the analysis section.  
 
 ---
 
-## 📌 Example
-
-* **Input (drawn on canvas):** `2x + 3 = 7`
-* **AI Output:**
-
-  * Equation recognized: `2x + 3 = 7`
-  * Step 1: Subtract 3 from both sides → `2x = 4`
-  * Step 2: Divide both sides by 2 → `x = 2`
-  * ✅ Final Answer: **x = 2**
+## 📷 Screenshots  
+*(Add screenshots of the app interface here for better presentation.)*  
 
 ---
 
-## 🤝 Contribution
-
-Feel free to fork this repo, open issues, and submit pull requests to improve this project.
-
----
-
-## 📜 License
-
-This project is licensed under the **MIT License** – you are free to use and modify it.
+## 📌 Example  
+- **Input (drawn on canvas):** `2x + 3 = 7`  
+- **AI Output:**  
+  - Equation recognized: `2x + 3 = 7`  
+  - Step 1: Subtract 3 from both sides → `2x = 4`  
+  - Step 2: Divide both sides by 2 → `x = 2`  
+  - ✅ Final Answer: **x = 2**  
 
 ---
 
-## 👨‍💻 Author
+## 🤝 Contribution  
+Feel free to fork this repo, open issues, and submit pull requests to improve this project.  
 
-Developed by **Anuj Koli** ✨
+---
 
-```
+## 📜 License  
+This project is licensed under the **MIT License** – you are free to use and modify it.  
 
-Would you like me to also create a **`requirements.txt`** file for this project so it’s ready to run?
-```
+---
+
+## 👨‍💻 Author  
+Developed by **Anuj Koli** ✨  
